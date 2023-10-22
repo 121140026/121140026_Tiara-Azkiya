@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.site-footer {
+  background-color: black;
+  padding: 10px 0 5px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #f4f4f4;
+}
+.copyright-text {
+  text-align: center;
+  margin: 0;
+}
+
+header{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+header h1 {
+  margin: 0;
+}
+header img{
+  max-width: 100px;
+}
+.teks{
+  color: #f4f4f4;
+}
+.wrap {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+}
+.wrap img {
+  border-radius: 0%;
+}
+.wrap .teks {
+  margin-left: 35px;
+}
+.menu {
+  background: red;
+  text-align: right;
+}
+.menu a {
+  color: white;
+header {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+form {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form input[type="submit"]:hover{
+  background-color: aliceblue;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Halaman Formulir</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <img src="logo.png" width="100px" height="100px" />
+        <div class="teks">
+          <h1>UTS Pemograman Web</h1>
+          <h4>Tiara Azkiya</h4>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="index.html">Halaman Utama</a>
+        <a href="form.html">Halaman Formulir</a>
+        <a href="table.html">Halaman Tabel</a>
+      </nav>
+    </header>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="submit.html" method="get">
+      <label for="nama">Nama:</label><br />
+      <input type="text" id="nama" name="nama" required /><br />
+
+      <label for="nim">NIM:</label><br />
+      <input type="text" id="nim" name="nim" required /><br />
+
+      <label for="prodi">Program Studi:</label><br />
+      <input type="text" id="prodi" name="prodi" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" required /><br />
+
+      <label for="gender">Jenis Kelamin:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Laki-laki</label><br />
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Perempuan</label><br />
+
+      <label for="birthdate">Tanggal Lahir:</label><br />
+      <input type="date" id="birthdate" name="birthdate" required /><br />
+
+      <label for="address">Alamat:</label><br />
+      <textarea id="address" name="address" required></textarea><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p><a href="index.html">Kembali ke Halaman Utama</a></p>
+    <footer class="site-footer">
+      <p class="copyright-text">
+        Copyright &copy; 2023 Tiara Azkiya - 121140026
+      </p>
+    </footer>
+  </body>
+</html>
